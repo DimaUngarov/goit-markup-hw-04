@@ -54,8 +54,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -281,11 +281,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 16px;
 }
 .team-social-list {
   display: flex;
   flex-direction: row;
-  margin: 50px 32px;
+  align-items: center;
+  justify-content: center;
 }
 .team-social-item:not(:last-child) {
   margin-right: 10px;
@@ -463,6 +465,7 @@ img {
 }
 .filter-btn:hover,
 .filter-btn:focus {
+  color: var(--revers-color);
   background-color: var(--active-color);
 }
 .portfolio-name-container {
